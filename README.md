@@ -1,2 +1,4 @@
-This project is now archived as I've moved on to a multiplatform layout, rather than this lame split between fabric and forge/neoforge I've been doing.
+Fabric: tested and working on Cobblemon 1.7.3 / MC 1.21.1
+
+NeoForge: updated to match the new API, but not tested
 https://github.com/timinc-cobble/cobblemon-catch-on-defeat
