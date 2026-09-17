@@ -8,3 +8,9 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
+
+listOf(
+    "common",
+    "neoforge",
+    "fabric"
+).forEach { include(it)}

@@ -1,0 +1,8 @@
+{
+  "catch_on_defeat.feedback.cant_catch": "You must defeat %1$s in order to catch it.",
+  "catch_on_defeat.feedback.joined_team": "%1$s has joined your team!",
+  "catch_on_defeat.feedback.there_can_only_be_one": "%1$s only has a chance to join your team in a 1v1 battle.",
+  "catch_on_defeat.feedback.ran_away": "%1$s ran away!",
+  "catch_on_defeat.ui.would_like_to_join": "%1$s would like to join your team!",
+  "catch_on_defeat.feedback.released": "%1$s was released."
+}

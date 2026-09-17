@@ -1,44 +1,47 @@
-.gradle
-build/
-run/
-.idea/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+/.architectury-transformer/
+common/src/main/resources/assets/cobblemon/showdown
+# idea
+out
+*.ipr
 *.iws
 *.iml
-*.ipr
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+.idea
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+# gradle
+build
+.gradle
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# other
+eclipse
+run
+runClient
+runServer
 
-### VS Code ###
-.vscode/
+# Files from Forge MDK
+forge*changelog.txt
+/showdown/
+/logs/
+.vscode/launch.json
+.vscode
+common/src/main/resources/assets/cobblemon/showdown
 
-### Mac OS ###
+# Generated files
+*/generated/resources/*
+/fabric/src/generated/resources/cobblemon-common.accesswidener
+/.ignored/
+common/.fabric
+.kotlin/
+
+# MacOS
 .DS_Store
+
+/fabric/libs/
+/neoforge/libs/
+/common/libs/
